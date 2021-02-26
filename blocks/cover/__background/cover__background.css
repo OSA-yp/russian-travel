@@ -1,0 +1,9 @@
+/* Стилизизация элемента cover__background */
+.cover__background {
+  background-image: url(../../../images/cover/__background.jpg);
+  background-size: cover;
+  width: 100%;
+
+
+}
+

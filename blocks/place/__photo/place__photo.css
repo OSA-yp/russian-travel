@@ -1,0 +1,50 @@
+/* Стилизизация элемента place__photo */
+.place__photo {
+  object-fit: scale-down;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place__photo {
+    width: 440px;
+    height: 440px;
+  }
+  }
+
+
+@media screen and (max-width: 1023px) {
+  .place__photo {
+    width: calc(100vw / 2.3273);
+    height: calc(100vw / 2.3273);
+  }
+  }
+
+
+@media screen and (max-width: 768px) {
+  .place__photo {
+    width: 340px;
+    height: 340px;
+  }
+  }
+
+@media screen and (max-width: 767px) {
+  .place__photo {
+    width: calc(100vw / 2.259);
+    height: calc(100vw / 2.259);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place__photo {
+    width: 100vw;
+    height: 100vw;
+  }
+  }
+
+@media screen and (max-width: 320px) {
+  .place__photo {
+    width: 320px;
+    height: 320px;
+  }
+  }

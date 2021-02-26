@@ -1,0 +1,8 @@
+/* Стилизизация элемента cover__overlay */
+.cover__overlay {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

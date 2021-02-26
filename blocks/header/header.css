@@ -1,0 +1,19 @@
+/* Стилизизация блока header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 28px;
+  width: 100%;
+  max-width: 1184px;
+}
+
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+.header {
+  padding-top: 16px;
+}
+}
+

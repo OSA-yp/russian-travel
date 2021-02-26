@@ -1,0 +1,28 @@
+/* Стилизизация блока footer */
+.footer {
+  width: 100%;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+  }
+
+
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 64px;
+  }
+  }

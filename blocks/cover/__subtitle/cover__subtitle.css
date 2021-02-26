@@ -1,0 +1,30 @@
+/* Стилизизация элемента cover__subtitle */
+.cover__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 360px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__subtitle {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+  }
+
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    width: calc(100vw - 16px*2);
+    word-wrap: break-word;
+  }
+  }

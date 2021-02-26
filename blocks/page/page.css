@@ -1,0 +1,30 @@
+/* Стилизизация блока page */
+.page {
+  width: calc(100% - (48px*2));
+  /* min-width: 320px;  ораничил ширину, чтобы не ломалась верстка на более узких разрешениях */
+  text-rendering: optimizeLegibility;  /*включаем улучшенный рендеринг, надеюсь это наследуется*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+  /* outline: 1px solid red; */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .page {
+    width: calc(100% - (24px*2));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .page {
+    width: calc(100% - (16px*2));
+  }
+}

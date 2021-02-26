@@ -1,0 +1,70 @@
+/* Стилизизация блока place */
+.place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto 460px;
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+  margin: 0;
+  padding-top: 80px;
+}
+
+.place:first-child{
+  padding-top: 0;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 456px;
+    grid-template-rows: auto 440px;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    /* колонок = пропорция колонок - gap 32/2 - поля 48*2 */
+    grid-template-columns: calc(49.1% - 16px - 48px) calc(50.9% - 16px - 48px);
+    grid-template-rows: auto auto;
+    grid-column-gap: 32px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto auto;
+    grid-column-gap: 28px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .place {
+    /* колонок = пропорция колонок - gap 28/2 - поля 24*2 */
+    grid-template-columns: calc(57.4% - 14px - 3.125%) calc(42.6% - 14px - 3.125%);
+    grid-template-rows: auto auto;
+    grid-column-gap: 3.65%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat (4, auto);
+    grid-row-gap: 32px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 320px;
+    grid-template-rows: repeat (4, auto);
+    grid-row-gap: 32px;
+    padding-top: 50px;
+  }
+}

@@ -1,0 +1,6 @@
+/* Стилизизация модификатора header__lang-link_active */
+.header__lang-link_active {
+  text-decoration-line: underline;
+  text-decoration-thickness: 100%;
+
+}

@@ -1,0 +1,16 @@
+/* Стилизизация блока cover */
+.cover {
+  width: calc(100vw - 48px*2);
+  max-width: 1184px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100vw;
+  }
+  }
+
+
+

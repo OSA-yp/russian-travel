@@ -1,0 +1,11 @@
+/* Стилизизация элемента intro__list-item */
+.intro__list-item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}

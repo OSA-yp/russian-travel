@@ -1,8 +1,33 @@
 /* Стилизизация элемента cover__overlay */
 .cover__overlay {
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background: #2A2C2F;
+  opacity: 0.3;
+  z-index: 2;
+  position: absolute;
+  max-width: 1184px;
+  width: calc(100% - 96px);
+  width: 100%;
+  min-height: 740px;
+  top: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+  }
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
+  }

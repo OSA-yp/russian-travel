@@ -1,9 +1,30 @@
 /* Стилизизация элемента cover__background */
 .cover__background {
   background-image: url(../../../images/cover/__background.jpg);
+  background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
-
-
+  min-height: 740px;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+  }
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    min-height: 200px;
+  }
+  }

@@ -9,9 +9,18 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 92px 0 92px 0;
+    padding: 92px 0;
   }
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 88px 0;
+  }
+}
+
 
 /*когда ширина экрана меньше ширины блока*/
 @media screen and (max-width: 690px) {
@@ -22,6 +31,6 @@
 
 @media screen and (max-width: 320px) {
   .intro {
-    padding: 64px 0 64px 0;
+    padding: 64px 0;
   }
 }

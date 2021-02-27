@@ -1,7 +1,6 @@
 /* Стилизизация блока body */
 .body {
   background-color: #2A2C2F;
-  background-color: #c365fa;
   display: flex;
   flex-direction: column;
   align-items: center;

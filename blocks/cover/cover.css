@@ -1,14 +1,24 @@
 /* Стилизизация блока cover */
 .cover {
-  width: calc(100vw - 48px*2);
+  width: 100%;
   max-width: 1184px;
+
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100vw;
+    width: calc(100% + 96px);
   }
   }
 
+@media screen and (max-width: 768px) {
+  .cover {
+    width: calc(100% + 48px);
+  }
+  }
 
-
+@media screen and (max-width: 320px) {
+  .cover {
+    width: calc(100% + 32px);
+  }
+  }

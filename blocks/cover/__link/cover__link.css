@@ -1,4 +1,11 @@
 /* Стилизизация элемента cover__link */
 .cover__link {
   text-decoration: none;
+  z-index: 4;
+  display: block; /* Ссылка как блочный элемент */
+}
+
+.cover__link:hover .cover__overlay {
+  transition: opacity 0.4s ease;
+  opacity: 0.8;
 }

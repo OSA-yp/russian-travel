@@ -5,22 +5,17 @@
   align-self: flex-start;
 }
 
-
-
 @media screen and (max-width: 1024px) {
   .intro {
     padding: 92px 0;
   }
 }
 
-
-
 @media screen and (max-width: 1024px) {
   .intro {
     padding: 88px 0;
   }
 }
-
 
 /*когда ширина экрана меньше ширины блока*/
 @media screen and (max-width: 690px) {

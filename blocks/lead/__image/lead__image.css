@@ -6,18 +6,11 @@
   max-width: 984px;
 }
 
-
-
-
-
 @media screen and (max-width: 768px) {
   .lead__image {
     width: calc(100% + 48px);
   }
 }
-
-
-
 
 @media screen and (max-width: 320px) {
   .lead__image {

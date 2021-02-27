@@ -1,6 +1,6 @@
 /* Стилизизация элемента place__description */
 .place__description {
-  font-family: Inter;
+  font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -8,7 +8,6 @@
   color: #FFFFFF;
   margin: 0;
   padding: 0 0 25px 0;
-
   justify-self: flex-start;
   align-self: flex-start;
   }
@@ -16,7 +15,6 @@
 .place__description:last-child {
   padding: 0;
 }
-
 
 @media screen and (max-width: 950px) {
   .place__description {
@@ -30,15 +28,6 @@
     width: calc(100vw - (16px*2));
   }
 }
-
-
-@media screen and (max-width: 320px) {
-  .place__description:last-child {
-    width: calc(100vw - (16px*2));
-  }
-}
-
-
 
 
 

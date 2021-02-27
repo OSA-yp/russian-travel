@@ -4,15 +4,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  background-color: rgb(255, 217, 0);
 }
-
 
 @media screen and (max-width: 1024px) {
   .lead {
     width: 100%;
   }
   }
-
-

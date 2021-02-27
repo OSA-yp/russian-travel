@@ -1,33 +1,10 @@
 /* Стилизизация блока photo-grid */
 .photo-grid {
   padding: 0 0 92px 0;
-  width: calc(100vw - 48px*2);
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background-color: rgb(255, 217, 0);
   }
-
-
-
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
-  .photo-grid {
-    width: calc(100vw - (24px*2));
-  }
-}
-
-@media screen and (max-width: 767px) {
-  /* стили для планшета */
-  .photo-grid {
-    width: calc(100vw - (3.125%*2));
-  }
-}
-
-
-@media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
-  .photo-grid {
-    width: calc(100vw - (16px*2));
-    padding: 0 0 64px 0;
-  }
-}

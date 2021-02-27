@@ -22,7 +22,7 @@
   }
 
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 740px) {
     /* когда ширина меньше начальной ширины заголовка  */
   .lead__title {
     width: 100%;

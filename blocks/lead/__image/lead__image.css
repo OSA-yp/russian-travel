@@ -7,17 +7,20 @@
 }
 
 
+
+
+
 @media screen and (max-width: 768px) {
-  /* стили для планшета */
- .lead__image {
-   width: 100vw;
- }
+  .lead__image {
+    width: calc(100% + 48px);
   }
+}
+
+
 
 
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
   .lead__image {
-    width: 100vw;
+    width: calc(100% + 32px);
   }
 }

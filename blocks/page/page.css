@@ -1,19 +1,14 @@
 /* Стилизизация блока page */
 .page {
   width: calc(100% - (48px*2));
-  /* min-width: 320px;  ораничил ширину, чтобы не ломалась верстка на более узких разрешениях */
+  max-width: 1184px;
   text-rendering: optimizeLegibility;  /*включаем улучшенный рендеринг, надеюсь это наследуется*/
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-
-  /* outline: 1px solid red; */
+  background-color: rosybrown;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
   /* стили для планшета */

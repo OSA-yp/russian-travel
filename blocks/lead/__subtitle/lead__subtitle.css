@@ -19,7 +19,7 @@
 }
 
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 660px) {
       /* когда ширина меньше начальной ширины подзаголовка  */
     .lead__subtitle {
       width: calc(100% - (16px*2));

@@ -1,8 +1,10 @@
 /* Стилизизация элемента place__photo */
 .place__photo {
+  width: 100%;
+  height: auto;
   object-fit: scale-down;
-
 }
+
 
 @media screen and (max-width: 1024px) {
   .place__photo {
@@ -13,8 +15,8 @@
 
 @media screen and (max-width: 1023px) {
   .place__photo {
-    width: calc(100vw / 2.75);
-    height: calc(100vw / 2.75);
+    width: 100%;
+    height: auto;
   }
   }
 
@@ -27,21 +29,14 @@
 
 @media screen and (max-width: 767px) {
   .place__photo {
-    width: calc(100vw / 2.259);
-    height: calc(100vw / 2.259);
+    width: 100%;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .place__photo {
-    width: 100vw;
-    height: 100vw;
-  }
-  }
-
 @media screen and (max-width: 320px) {
   .place__photo {
-    width: 320px;
-    height: 320px;
+    width: 288px;
+    height: 216px;
   }
   }

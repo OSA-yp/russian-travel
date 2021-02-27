@@ -1,29 +1,18 @@
 /* Стилизизация блока lead */
 .lead {
-  width: calc (100% - 100px*2);
+  width: calc(100% - 100px*2);
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background-color: rgb(255, 217, 0);
 }
 
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: calc(100vw - 48px*2);
+    width: 100%;
   }
   }
 
 
-  @media screen and (max-width: 768px) {
-    .lead {
-      width: 100vw;
-    }
-    }
-
-
-
-  @media screen and (max-width: 320px) {
-    .lead {
-      width: calc(100vw - 16px*2);
-    }
-    }

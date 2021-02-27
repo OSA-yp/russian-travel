@@ -1,7 +1,7 @@
 /* Стилизизация блока intro */
 .intro {
   padding: 92px 0 92px 100px;
-  width: 690px;
+  max-width: 690px;
   align-self: flex-start;
 }
 
@@ -9,19 +9,17 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 92px 0 92px 48px;
-
+    padding: 92px 0 92px 0;
   }
 }
 
-
-@media screen and (max-width: 768px) {
+/*когда ширина экрана меньше ширины блока*/
+@media screen and (max-width: 690px) {
   .intro {
-    padding: 88px 0 88px 24px;
-    width: calc(100% - 24px*2);
+    width: 100%;
   }
 }
-
+/*
 @media screen and (max-width: 320px) {
   .intro {
     padding: 64px 0 64px 16px;
@@ -34,4 +32,4 @@
   .intro {
     padding: 92px 0 92px calc((100vw - 1280px) / 2 + 100px);
   }
-}
+} */

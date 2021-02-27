@@ -9,48 +9,8 @@
   padding: 0 0 92px 0;
 }
 
-
-
-@media screen and (max-width: 1024px) {
-  /* стили для планшета в альбомной ориентации */
+@media screen and (max-width: 1023px) {
   .places {
     width: 100%;
-    padding: 0 0 92px 48px;
   }
-  }
-
-
-  @media screen and (max-width: 1023px) {
-    /* стили для планшета в альбомной ориентации */
-    .places {
-      padding: 0 0 90px 4.6875%;
-      width: calc(100% - 4.6875%);
-    }
-    }
-
-    @media screen and (max-width: 768px) {
-      /* стили для планшета в альбомной ориентации */
-      .places {
-        padding: 0 0 90px 24px;
-
-      }
-      }
-
-
-      @media screen and (max-width: 767px) {
-        /* стили для планшета в альбомной ориентации */
-        .places {
-          padding: 0 0 90px 3.125%;
-
-        }
-        }
-
-
-    @media screen and (max-width: 320px) {
-      /* стили для планшета в альбомной ориентации */
-      .places {
-        /* padding: 0 0 66px 16px; - непонятная ситуация, я добавлял и удалял левй отступ несколько раз*/
-        padding: 0 0 66px 0;
-
-      }
-      }
+}
